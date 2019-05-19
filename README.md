@@ -3,15 +3,11 @@ Aequitas-Coin [AEQL] integration/staging tree
 
 http://aequitas.chainpages.xyz/
 
-What is the Aequitas-Coin [AEQL] Blockchain?
+What is the Aequitas Network [AEQL] Blockchain?
 ----------------------------------------
-*TODO: Update documentation regarding implemented tech as this section is out of date and much progress and upgrades have been made to mentioned sections...*
+
 
 ### Overview
-This blockchain was devised and created through the community for the community (replacing upon community request the old EndoV2 that this is swapping from) 
-The goal of this project is to become it's own Operating System for all platforms (As secure and user-friendly as Linux but as beautiful and graceful as Macintosh OS) 
-
-### Blockchain Technology
 The Aequitas [AEQL] Blockchain is an experimental smart contract platform protocol that enables 
 instant payments to anyone, anywhere in the world in a private, secure manner. 
 Aequitas [AEQL] uses peer-to-peer blockchain technology developed by Aequitas to operate
@@ -42,11 +38,17 @@ Aequitas uses
 
 
 General Specs
-
-	Block Spacing: 4.5 Minutes
-	Stake Minimum Age: 25 Confirmations (PoS-v3) | 30 Minutes (PoS-v2)
-	Port: 51441
-	RPC Port: 51221
+	PoW/PoS Hybrid
+	Ticker: AEQL
+	Supply: 21M
+	Algo: Keccak
+	Block R: 10c/b
+	blocktime: 60
+	Chance of SuperBlock: 50%
+	Masternode Col: 1k
+	Premine 1M / 100 for 100 blocks.
+	Port: 90777
+	RPC Port: 91777
 
 
 BUILD LINUX
@@ -75,7 +77,7 @@ cd ~; wget http://download.oracle.com/berkeley-db/db-6.2.32.NC.tar.gz; tar zxf d
 
 ### GitHub pull (Source Download)
 ```
-cd ~; git clone https://github.com/SaltineChips/Aequitas
+cd ~; git clone https://github.com/aequitasnetwork/Aequitas
 ```
 
 ### Build Aequitas daemon
@@ -132,14 +134,9 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/CryptoCoderz/AEQL/tags) are created
-regularly to indicate new official, stable release versions of Aequitas [AEQL].
+completely stable.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
 
 Developer Discord can be found at:
 
