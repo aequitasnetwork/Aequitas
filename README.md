@@ -38,6 +38,7 @@ Aequitas uses
 
 
 General Specs
+
 	PoW/PoS Hybrid
 	Ticker: AEQL
 	Supply: 21M
@@ -46,7 +47,7 @@ General Specs
 	blocktime: 60
 	Chance of SuperBlock: 50%
 	Masternode Col: 1k
-	Premine 1M / 100 for 100 blocks.
+	Premine 1M / 100 for 100 blocks
 	Port: 90777
 	RPC Port: 91777
 
