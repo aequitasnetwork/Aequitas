@@ -1,4 +1,4 @@
-Aequitas-Coin [AEQL] integration/staging tree
+Aequitas Network
 =====================================
 
 http://aequitas.chainpages.xyz/
